@@ -1,0 +1,45 @@
+nav{
+    background-color: #222 !important;
+}
+.bg-image{
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.jumbo{
+    min-height: 80vh;
+    width: 100%;
+    margin: 0;
+}
+.jumbotron{
+    color: azure;
+}
+.card{
+    border: none;
+}
+.card-image-top{
+    max-height: 180px;
+}
+.card-title{
+    text-align: center;
+}
+.line{
+    border-right: rgb(26, 26, 29) 3px solid;
+}
+.bg-dark{
+    background-color: #111 !important;
+}
+.text, .text * {
+    color: #111;
+    font-size: 20px;
+}
+@media screen and (min-width:1023px) {
+    .jumbo{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width:425px) {
+    .line{
+        border: none;
+    }
+}
