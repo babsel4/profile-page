@@ -36,6 +36,7 @@ nav{
 @media screen and (min-width:1023px) {
     .jumbo{
         min-height: 500px;
+        max-height: 700px;
     }
 }
 @media screen and (max-width:425px) {
